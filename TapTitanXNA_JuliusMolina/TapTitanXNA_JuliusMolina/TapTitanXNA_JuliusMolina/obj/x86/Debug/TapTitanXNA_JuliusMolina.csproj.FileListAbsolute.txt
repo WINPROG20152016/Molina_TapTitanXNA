@@ -1,0 +1,42 @@
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.csprojResolveAssemblyReference.cache
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\TapTitanXNA_JuliusMolina.exe
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\TapTitanXNA_JuliusMolina.pdb
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.exe
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.pdb
+c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\BackgroundSprite\bg.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\attack.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\attack1.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_1.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_2.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_3.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroSheet.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyAttacked.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyDead.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyIdle.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\SupportSprite\Support_Air1.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\abutton.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\Font.xnb
+C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\button.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\Font.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\BackgroundSprite\bg.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\attack.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\attack1.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_1.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_2.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroIdle_3.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\HeroSprite\heroSheet.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyAttacked.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyDead.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\EnemyIdle.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\SupportSprite\Support_Air1.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\abutton.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\button.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\TapTitanXNA_JuliusMolina.exe
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\TapTitanXNA_JuliusMolina.pdb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.csprojResolveAssemblyReference.cache
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.exe
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.pdb

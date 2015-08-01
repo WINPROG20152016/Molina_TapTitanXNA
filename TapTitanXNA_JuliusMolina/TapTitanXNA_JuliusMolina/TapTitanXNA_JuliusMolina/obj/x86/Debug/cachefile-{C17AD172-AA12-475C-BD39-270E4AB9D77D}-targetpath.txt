@@ -1,0 +1,15 @@
+Content\Font.xnb
+Content\BackgroundSprite\bg.xnb
+Content\HeroSprite\attack.xnb
+Content\HeroSprite\attack1.xnb
+Content\HeroSprite\heroIdle.xnb
+Content\HeroSprite\heroIdle_1.xnb
+Content\HeroSprite\heroIdle_2.xnb
+Content\HeroSprite\heroIdle_3.xnb
+Content\HeroSprite\heroSheet.xnb
+Content\EnemySprite\EnemyAttacked.xnb
+Content\EnemySprite\EnemyDead.xnb
+Content\EnemySprite\EnemyIdle.xnb
+Content\SupportSprite\Support_Air1.xnb
+Content\abutton.xnb
+Content\button.xnb
