@@ -34,10 +34,10 @@ namespace TapTitanXNA_JuliusMolina
 
         public void PlayAnimation(Animation animation)
         {
-            if (Animation == animation)
-            {
-                return;
-            }
+            //if (Animation == animation)
+            //{
+            //    return;
+            //}
 
             this.animation = animation;
             this.frameIndex = 0;

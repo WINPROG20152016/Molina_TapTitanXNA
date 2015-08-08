@@ -40,3 +40,6 @@ C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTi
 C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.exe
 C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\obj\x86\Debug\TapTitanXNA_JuliusMolina.pdb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Attacked.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Dead.xnb
+C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Idle.xnb

@@ -31,7 +31,6 @@ namespace TapTitanXNA_JuliusMolina
             this.content = content;
             this.level = level;
             this.name = name;
-            lifePoints = 10;
         }
 
         public void LoadContent()
@@ -56,7 +55,21 @@ namespace TapTitanXNA_JuliusMolina
                     idleFrames = 4;
                     attackFrames = 3;
                     deadFrames = 4;
+                    lifePoints = 100;
                     break;
+
+                case "shroom":
+                    imageIdle = "EnemySprite/Enemy2Idle";
+                    imageAttack = "EnemySprite/Enemy2Attacked";
+                    imageDead = "EnemySprite/Enemy2Dead";
+                    positionAdjustX = 220.0f;
+                    positionAdjustY = -130.0f;
+                    idleFrames = 4;
+                    attackFrames = 1;
+                    deadFrames = 5;
+                    lifePoints = 250;
+                    break;
+
             }
             player = content.Load<Texture2D>(imageIdle);
 
@@ -73,24 +86,24 @@ namespace TapTitanXNA_JuliusMolina
 
         public void Update(GameTime gameTime)
         {
-            if (lifePoints > 0)
-            {
-                if (level.mouseState.LeftButton == ButtonState.Pressed &&
-                    level.oldMouseState.LeftButton == ButtonState.Released)
-                {
-                    //playerPosition.X++;
-                    spritePlayer.PlayAnimation(attackAnimation);
-                }
-                else if (spritePlayer.FrameIndex == 2)
-                {
-                    spritePlayer.PlayAnimation(idleAnimation);
-                }
+            //if ( lifePoints> 0)
+            //{
+            //    if (level.mouseState.LeftButton == ButtonState.Pressed &&
+            //        level.oldMouseState.LeftButton == ButtonState.Released)
+            //    {
+            //        //playerPosition.X++;
+            //        spritePlayer.PlayAnimation(attackAnimation);
+            //    }
+            //    else if (spritePlayer.FrameIndex == 2)
+            //    {
+            //        spritePlayer.PlayAnimation(idleAnimation);
+            //    }
 
-            }
-            else
-            {
-                spritePlayer.PlayAnimation(deadAnimation);
-            }
+            //}
+            //else
+            //{
+            //    spritePlayer.PlayAnimation(deadAnimation);
+            //}
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

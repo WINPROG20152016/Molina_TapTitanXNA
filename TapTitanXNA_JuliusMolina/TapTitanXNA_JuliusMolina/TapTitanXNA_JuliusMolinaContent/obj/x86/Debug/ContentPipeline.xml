@@ -136,6 +136,33 @@
       <Output>C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\button.xnb</Output>
       <Time>2015-07-18T09:23:32.5828876+08:00</Time>
     </Item>
+    <Item>
+      <Source>EnemySprite\Enemy2Attacked.png</Source>
+      <Name>EnemySprite\Enemy2Attacked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Attacked.xnb</Output>
+      <Time>2015-08-08T09:42:10.3663579+08:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemySprite\Enemy2Dead.png</Source>
+      <Name>EnemySprite\Enemy2Dead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Dead.xnb</Output>
+      <Time>2015-08-08T09:41:49.8463061+08:00</Time>
+    </Item>
+    <Item>
+      <Source>EnemySprite\Enemy2Idle.png</Source>
+      <Name>EnemySprite\Enemy2Idle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\LaLa\LaLa\TapTitanXNA\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\TapTitanXNA_JuliusMolina\bin\x86\Debug\Content\EnemySprite\Enemy2Idle.xnb</Output>
+      <Time>2015-08-08T09:41:09.4532672+08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

@@ -83,14 +83,14 @@ namespace TapTitanXNA_JuliusMolina
 
         public void Update(GameTime gameTime)
         {
-            if (name == "hero" && level.mouseState.LeftButton == ButtonState.Pressed &&
-                level.oldMouseState.LeftButton == ButtonState.Released)
-            {
-                //playerPosition.X++;
-                spritePlayer.PlayAnimation(attackAnimation);
-            }
-            else if (name == "hero" && spritePlayer.FrameIndex == (int)frames.hero_att - 1)
-                spritePlayer.PlayAnimation(idleAnimation);
+            //if (name == "hero" && level.mouseState.LeftButton == ButtonState.Pressed &&
+            //    level.oldMouseState.LeftButton == ButtonState.Released)
+            //{
+            //    //playerPosition.X++;
+            //    spritePlayer.PlayAnimation(attackAnimation);
+            //}
+            //else if (name == "hero" && spritePlayer.FrameIndex == (int)frames.hero_att - 1)
+            //    spritePlayer.PlayAnimation(idleAnimation);
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

@@ -13,3 +13,6 @@ Content\EnemySprite\EnemyIdle.xnb
 Content\SupportSprite\Support_Air1.xnb
 Content\abutton.xnb
 Content\button.xnb
+Content\EnemySprite\Enemy2Attacked.xnb
+Content\EnemySprite\Enemy2Dead.xnb
+Content\EnemySprite\Enemy2Idle.xnb
