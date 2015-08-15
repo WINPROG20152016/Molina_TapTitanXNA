@@ -67,15 +67,15 @@ namespace TapTitanXNA_JuliusMolina
             }
 
             player = content.Load<Texture2D>(imageIdle);
-            idleAnimation = new Animation(player, 0.5f, true, idleFrames);
+            idleAnimation = new Animation(player, 0.1f, true, idleFrames);
 
             if (name == "hero")
             {
                 attackAnimation = new Animation(content.Load<Texture2D>(imageAttack), 0.2f, false, attackFrames);
             }
 
-            int positionX = (Level.windowWidth / 2) - (player.Width / 4);
-            int positionY = (Level.windowHeight / 2) - (player.Height / 4);
+            int positionX = (Level.windowWidth / 2) - (idleAnimation.FrameWidth / 4);
+            int positionY = (Level.windowHeight / 2) - (idleAnimation.FrameHeight / 4);
             playerPosition = new Vector2((float)positionX + positionAdjustX, (float)positionY + positionAdjustY);
 
             spritePlayer.PlayAnimation(idleAnimation);

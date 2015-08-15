@@ -57,7 +57,7 @@ namespace TapTitanXNA_JuliusMolina
             time += (float)gameTime.ElapsedGameTime.TotalSeconds;
             while (time > Animation.frameTime)
             {
-                time = Animation.frameTime;
+                time -= Animation.frameTime;
 
                 if (Animation.isLooping)
                 {
