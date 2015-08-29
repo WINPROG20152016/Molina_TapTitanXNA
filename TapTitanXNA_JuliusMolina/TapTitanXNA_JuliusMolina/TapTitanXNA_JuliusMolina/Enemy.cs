@@ -24,6 +24,9 @@ namespace TapTitanXNA_JuliusMolina
 
         string name;
         int lifePoints;
+        int idleFrames = 1;
+        int attackFrames = 1;
+        int deadFrames = 1;
         #endregion
 
         public Enemy(ContentManager content, Level level, string name)
@@ -40,17 +43,14 @@ namespace TapTitanXNA_JuliusMolina
             string imageDead = "";
             float positionAdjustX = 0.0f;
             float positionAdjustY = 0.0f;
-            int idleFrames = 1;
-            int attackFrames = 1;
-            int deadFrames = 1;
-
+            
             switch (name)
             {
                 case "snowman":
                     imageIdle = "EnemySprite/EnemyIdle";
                     imageAttack = "EnemySprite/EnemyAttacked";
                     imageDead = "EnemySprite/EnemyDead";
-                    positionAdjustX = 220.0f;
+                    positionAdjustX = 250.0f;
                     positionAdjustY = -130.0f;
                     idleFrames = 4;
                     attackFrames = 3;
@@ -86,24 +86,24 @@ namespace TapTitanXNA_JuliusMolina
 
         public void Update(GameTime gameTime)
         {
-            //if ( lifePoints> 0)
-            //{
-            //    if (level.mouseState.LeftButton == ButtonState.Pressed &&
-            //        level.oldMouseState.LeftButton == ButtonState.Released)
-            //    {
-            //        //playerPosition.X++;
-            //        spritePlayer.PlayAnimation(attackAnimation);
-            //    }
-            //    else if (spritePlayer.FrameIndex == 2)
-            //    {
-            //        spritePlayer.PlayAnimation(idleAnimation);
-            //    }
+            if ( lifePoints> 0)
+            {
+                if (level.mouseState.LeftButton == ButtonState.Pressed &&
+                   level.oldMouseState.LeftButton == ButtonState.Released)
+                {
+                    //playerPosition.X++;
+                   spritePlayer.PlayAnimation(attackAnimation);
+                }
+                else if (spritePlayer.FrameIndex == attackFrames-1)
+                {
+                    spritePlayer.PlayAnimation(idleAnimation);
+                }
 
-            //}
-            //else
-            //{
-            //    spritePlayer.PlayAnimation(deadAnimation);
-            //}
+            }
+            else
+            {
+                spritePlayer.PlayAnimation(deadAnimation);
+            }
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

@@ -25,12 +25,14 @@ namespace TapTitanXNA_JuliusMolina
         int mouseX, mouseY;
         int level = 0;
         int currentEnemyHP;
+        int atkdmg;
 
         Hero hero;
         Hero support1;
         Enemy enemy1;
         Enemy enemy2;
 
+        int supporttts = 60;
 
         SpriteFont damageStringFont;
         //int damageNumber = 0;
@@ -73,17 +75,28 @@ namespace TapTitanXNA_JuliusMolina
             
 
             hero.Update(gameTime);
-    //        enemy1.Update(gameTime);
-          //  enemy2.Update(gameTime);
-            //support1.Update(gameTime);
+            enemy1.Update(gameTime);
+            enemy2.Update(gameTime);
+            support1.Update(gameTime);
 
             oldMouseState = mouseState;
+
+            atkdmg=hero.heroATK;
 
             if (attackButton.Update(gameTime, mouseX, mouseY,
                             mpressed, prev_mpressed))
             {
-                currentEnemyHP-=10;
-                
+                currentEnemyHP-=atkdmg;
+            }
+
+            if (supporttts < 1)
+            {
+                currentEnemyHP-=support1.suppATK;
+                supporttts = 60;
+            }
+            else
+            {
+                supporttts--;
             }
 
             if (currentEnemyHP < 1)
@@ -106,10 +119,10 @@ namespace TapTitanXNA_JuliusMolina
             switch (level)
             {
                 case 1:
-                    //enemy1.Update(gameTime);
+                    enemy1.Update(gameTime);
                     break;
                 case 2:
-                    //enemy2.Update(gameTime);
+                    enemy2.Update(gameTime);
                     break;
                 default:
                     break;
@@ -121,6 +134,8 @@ namespace TapTitanXNA_JuliusMolina
             spriteBatch.Draw(background, Vector2.Zero, null, Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0.0f);
       //      enemy1.Draw(gameTime, spriteBatch);
       //      enemy2.Draw(gameTime, spriteBatch);
+
+            support1.Draw(gameTime, spriteBatch);
 
             switch (level)
             {
@@ -135,7 +150,6 @@ namespace TapTitanXNA_JuliusMolina
             }
 
             hero.Draw(gameTime, spriteBatch);
-            support1.Draw(gameTime, spriteBatch);
             spriteBatch.DrawString(damageStringFont, "HP = " + currentEnemyHP, Vector2.Zero, Color.Red);
 
             //playButton.Draw(gameTime, spriteBatch);

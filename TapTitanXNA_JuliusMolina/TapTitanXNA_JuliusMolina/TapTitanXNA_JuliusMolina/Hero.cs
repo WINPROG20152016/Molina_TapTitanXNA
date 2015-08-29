@@ -24,11 +24,15 @@ namespace TapTitanXNA_JuliusMolina
         ContentManager content;
         Level level;
 
+        string name;
+        bool supp1;
+        int suppatk=0;
+        int heroatk=0;
+
         Animation idleAnimation;
         Animation attackAnimation;
         AnimationPlayer spritePlayer;
 
-        string name;
         #endregion
 
         public Hero(ContentManager content, Level level, string name)
@@ -52,17 +56,20 @@ namespace TapTitanXNA_JuliusMolina
                 case "hero":
                     imageIdle = "HeroSprite/heroIdle_3";
                     imageAttack = "HeroSprite/attack1";
-                    positionAdjustX = -130.0f;
+                    positionAdjustX = -170.0f;
                     positionAdjustY = 20.0f;
                     idleFrames = (int)frames.hero_idle;
                     attackFrames = (int)frames.hero_att;
+                    heroatk = 5;
                     break;
 
                 case "support1":
                     imageIdle = "SupportSprite/Support_Air1";
-                    positionAdjustX = -10.0f;
-                    positionAdjustY = -130.0f;
+                    positionAdjustX = -99.0f;
+                    positionAdjustY = -160.0f;
                     idleFrames = (int)frames.support1;
+                    supp1 = false;
+                    suppatk = 3;
                     break;
             }
 
@@ -83,14 +90,14 @@ namespace TapTitanXNA_JuliusMolina
 
         public void Update(GameTime gameTime)
         {
-            //if (name == "hero" && level.mouseState.LeftButton == ButtonState.Pressed &&
-            //    level.oldMouseState.LeftButton == ButtonState.Released)
-            //{
-            //    //playerPosition.X++;
-            //    spritePlayer.PlayAnimation(attackAnimation);
-            //}
-            //else if (name == "hero" && spritePlayer.FrameIndex == (int)frames.hero_att - 1)
-            //    spritePlayer.PlayAnimation(idleAnimation);
+            if (name == "hero" && level.mouseState.LeftButton == ButtonState.Pressed &&
+                level.oldMouseState.LeftButton == ButtonState.Released)
+            {
+                //playerPosition.X++;
+                spritePlayer.PlayAnimation(attackAnimation);
+            }
+            else if (name == "hero" && spritePlayer.FrameIndex == (int)frames.hero_att - 1)
+                spritePlayer.PlayAnimation(idleAnimation);
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -107,5 +114,17 @@ namespace TapTitanXNA_JuliusMolina
 
             spritePlayer.Draw(gameTime, spriteBatch, playerPosition, SpriteEffects.None);
         }
+        public int heroATK
+        {
+            set { heroatk = value; }
+            get { return heroatk; }
+        }
+
+        public int suppATK
+        {
+            set { suppatk = value; }
+            get { return suppatk; }
+        }
     }
+
 }
